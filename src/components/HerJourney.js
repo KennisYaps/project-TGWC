@@ -1,8 +1,8 @@
 import React from "react";
-
 const HerJourney = () => (
   <div>
-    <p>You are in Her Journey page</p>
+    <h1>Her Journey</h1>
+
   </div>
 );
 
