@@ -1,8 +1,8 @@
 import React from "react";
-
+import '../CSS/style.css';
 const Home = () => (
   <div>
-    <p>You are in Home page</p>;
+  <h1 id="TGWC">The girl who code</h1>
   </div>
 );
 

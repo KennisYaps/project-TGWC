@@ -8,7 +8,7 @@ import HerProjects from './HerProjects';
 import HerResume from './HerResume';
 const MyRouter = () => (
   <div>
-    <p>you are in MyRouter.js file</p>
+    {/* <p>you are in MyRouter.js file</p> */}
     <Link to="/">Home</Link>&nbsp;&nbsp;
     <Link to="/about-her">About Her</Link>&nbsp;&nbsp;
     <Link to="/her-journey">Her Journey</Link>&nbsp;&nbsp;
@@ -24,4 +24,4 @@ const MyRouter = () => (
   </div>
 );
 
-export default MyRouter;
+export default MyRouter
