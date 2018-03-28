@@ -14,7 +14,7 @@ class Mistakes extends Component {
         <span>
           {this.state.mistakes.map((mistake, index) => {
             return (
-              <div>
+              <div key={index}>
                 <h2>{mistake.Title}</h2>
                 <p>
                   status:&nbsp;{mistake.isCompeleted === true

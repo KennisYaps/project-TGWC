@@ -21,8 +21,8 @@ class SkillsChart extends Component {
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         layout="vertical"
       >
-        <XAxis type="number" hide="true" />
-        <YAxis type="category" dataKey="name" axisLine="false" />
+        <XAxis type="number" hide={true} />
+        <YAxis type="category" dataKey="name" axisLine={false} />
         <Tooltip />
         <Bar dataKey="uv" fill="#8884d8" />
       </BarChart>
