@@ -1,16 +1,14 @@
 import React from "react";
+import IndividualTimelineEvent from "./individualTimelineEvent";
 
 const IndividualTimeline = props => (
     <div>
     {console.log(props.timelineDatas)} 
-    <h2>{props.timelineDatas.topic}</h2>
+    <h2>{props.timelineDatas.language}</h2>
     <div id="individualTimelineEvents">
       {props.timelineDatas.events.map((event, titleIndex) => {
         return (
-          <div id="title" key={titleIndex}>
-            <h4> {event.title} </h4>
-            <p>{event.text}</p>
-          </div>
+          <IndividualTimelineEvent eventdata={event} key={titleIndex}/>
         );
       })}
     </div>

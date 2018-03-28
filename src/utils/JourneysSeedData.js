@@ -1,6 +1,6 @@
 export const TimelinesArray = [
   {
-    topic: "Python",
+    language: "Python",
     // time: new Date (), 
     events: [
       { 
@@ -30,7 +30,7 @@ export const TimelinesArray = [
     ]
   },
   {
-    topic: "Jumpstart",
+    language: "Jumpstart",
     events: [
       {
         // timeCreated: new Date(),
