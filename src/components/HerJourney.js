@@ -18,7 +18,6 @@ class HerJourney extends Component {
       <div>
         <h1>Her Journey</h1>
         <div id="timelines">{displayTimelines}</div>
-  
       </div>
     );
   }
