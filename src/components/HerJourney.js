@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { TimelinesArray } from "../utils/JourneysSeedData";
-import IndividualTimeline from './IndivdualTimeline';
-class HerJourneys extends Component {
+import Timeline from './Timeline';
+class HerJourney extends Component {
   constructor() {
     super();
     this.state = {
@@ -12,7 +12,7 @@ class HerJourneys extends Component {
     const displayTimelines = this.state.timelines.map(
       (timeline, timelineIndex) => {
         return (
-          <IndividualTimeline key={timelineIndex} timelineDatas={timeline}/>
+          <Timeline key={timelineIndex} timelineDatas={timeline}/>
         );
       }
     );
@@ -24,4 +24,4 @@ class HerJourneys extends Component {
     );
   }
 }
-export default HerJourneys;
+export default HerJourney;

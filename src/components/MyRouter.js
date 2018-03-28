@@ -5,7 +5,7 @@ import AboutHer from './AboutHer';
 import HerMistakes from './HerMistakes';
 import HerProjects from './HerProjects';
 import HerResume from './HerResume';
-import HerJourneys from './HerJourneys';
+import HerJourney from './HerJourney';
 const MyRouter = () => (
   <div>
     {/* <p>you are in MyRouter.js file</p> */}
@@ -17,7 +17,7 @@ const MyRouter = () => (
     <Link to="/her-resume">Her Resume</Link>&nbsp;&nbsp;
     <Route exact path="/" component={Home}/>
     <Route exact path="/about-her" component={AboutHer}/>
-    <Route exact path="/her-journeys" component={HerJourneys}/>
+    <Route exact path="/her-journeys" component={HerJourney}/>
     <Route exact path="/her-mistakes" component={HerMistakes}/>
     <Route exact path="/her-projects" component={HerProjects}/>
     <Route exact path="/her-resume" component={HerResume}/>
