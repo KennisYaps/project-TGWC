@@ -4,8 +4,8 @@ const { Meta } = Card;
 const ProjectCards = () => (
   <div>
     <div style={{ padding: "30px" }}>
-      <Row gutter={16}>
-        <Col span={8}>
+      <Row gutter={16} type="flex" justify="center">
+        <Col span={6}>
           <Card
             style={{ width: 300 }}
             cover={
@@ -26,7 +26,7 @@ const ProjectCards = () => (
             />
           </Card>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Card
             style={{ width: 300 }}
             cover={
@@ -47,7 +47,7 @@ const ProjectCards = () => (
             />
           </Card>
         </Col>
-        <Col span={8}>
+        <Col span={6}>
           <Card
             style={{ width: 300 }}
             cover={
