@@ -1,33 +1,28 @@
 import React, { Component } from "react";
-import { MistakesArray } from "../utils/MistakesSeedData";
-
+import Mistake from './Mistake';
 class Mistakes extends Component {
   constructor() {
     super();
     this.state = {
-      mistakes: MistakesArray
+      mistakes: []
     };
   }
   render() {
-    return (
-      <div>
-        <span>
-          {this.state.mistakes.map((mistake, index) => {
-            return (
-              <div key={index}>
-                <h2>{mistake.Title}</h2>
-                <p>
-                  status:&nbsp;{mistake.isCompeleted === true
-                    ? "Completed"
-                    : "In progress"}
-                </p>
-                <p>{mistake.text}</p>
-              </div>
-            );
-          })}
-        </span>
-      </div>
-    );
+    const displayMistakes = this.state.mistakes.map((mistake, index) => {
+      return <Mistake mistakeData={mistake} key={index} />;
+    });
+    return <div>{displayMistakes}</div>;
+  }
+  componentDidMount() {
+    fetch("http://localhost:3000/mistakes")
+      .then(data => {
+        return data.json();
+      })
+      .then(data =>
+        this.setState({
+          mistakes: data
+        })
+      );
   }
 }
 export default Mistakes;

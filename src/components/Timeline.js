@@ -2,8 +2,8 @@ import React from "react";
 import Event from "./Event";
 // use vertical timeline
 const Timeline = props => (
+  
     <div>
-    {console.log(props.timelineDatas)} 
     <h2>{props.timelineDatas.TimelineTitle}</h2>
     <p>{props.timelineDatas.date}</p>
     <div id="TimelineDataEvents">

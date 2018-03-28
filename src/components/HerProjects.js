@@ -1,10 +1,10 @@
+import ProjectCards from './ProjectCard';
 import React from "react";
-import InputTest from './newEntry';
 
 const HerProjects = () => (
   <div>
     <h1>Her Projects</h1>
-    <p>{InputTest}</p>
+    <span><ProjectCards/></span>
   </div>
 );
 
