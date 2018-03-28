@@ -1,9 +1,33 @@
-import React from "react";
+import React, { Component } from "react";
+import { MistakesArray } from "../utils/MistakesSeedData";
 
-const HerMistakes = () => (
-  <div>
-    <p>You are in Her Mistakes page</p>
-  </div>
-);
-
-export default HerMistakes;
+class Mistakes extends Component {
+  constructor() {
+    super();
+    this.state = {
+      mistakes: MistakesArray
+    };
+  }
+  render() {
+    return (
+      <div>
+        <span>
+          {this.state.mistakes.map((mistake, index) => {
+            return (
+              <div>
+                <h2>{mistake.Title}</h2>
+                <p>
+                  status:&nbsp;{mistake.isCompeleted === true
+                    ? "Completed"
+                    : "In progress"}
+                </p>
+                <p>{mistake.text}</p>
+              </div>
+            );
+          })}
+        </span>
+      </div>
+    );
+  }
+}
+export default Mistakes;
