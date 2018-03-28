@@ -1,8 +1,8 @@
 export const TimelinesArray = [
   {
-    timeline: "Python",
+    topic: "Python",
     // time: new Date (), 
-    event: [
+    events: [
       { 
         // timeCreated: new Date(),
         title: "Day 1",
@@ -30,8 +30,8 @@ export const TimelinesArray = [
     ]
   },
   {
-    timeline: "Jumpstart",
-    event: [
+    topic: "Jumpstart",
+    events: [
       {
         // timeCreated: new Date(),
         title: "Day 1",
