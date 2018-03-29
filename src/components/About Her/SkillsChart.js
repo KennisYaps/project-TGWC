@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 
 const data = [
-  { name: "C", uv: 4000 },
-  { name: "C++", uv: 3000 },
-  { name: "Python", uv: 2000 },
-  { name: "Javascript", uv: 2780 },
-  { name: "React", uv: 1890 },
-  { name: "TDD", uv: 2390 }
+  { name: "C", Level: 4000 },
+  { name: "C++", Level: 3000 },
+  { name: "Python", Level: 2000 },
+  { name: "Javascript", Level: 2780 },
+  { name: "React", Level: 1890 },
+  { name: "TDD", Level: 2390 }
 ];
 
 class SkillsChart extends Component {
@@ -24,7 +24,7 @@ class SkillsChart extends Component {
         <XAxis type="number" hide={true} />
         <YAxis type="category" dataKey="name" axisLine={false} />
         <Tooltip />
-        <Bar dataKey="uv" fill="#8884d8" />
+        <Bar dataKey="Level" fill="#8884d8" />
       </BarChart>
     );
   }

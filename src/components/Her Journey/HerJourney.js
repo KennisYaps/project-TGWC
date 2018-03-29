@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Timeline from "./Timeline";
+
 class HerJourney extends Component {
   constructor() {
     super();
@@ -21,8 +22,8 @@ class HerJourney extends Component {
       </div>
     );
   }
-  componentDidMount() {
-    fetch("http://localhost:3000/timelines")
+ async componentDidMount() {
+   await fetch("http://localhost:3000/timelines")
       .then(data => {
         return data.json();
       })
