@@ -1,11 +1,11 @@
 import React from "react";
 // import { Route, Link } from "react-router-dom";
-import Home from "./Home";
-import AboutHer from "./AboutHer";
-import HerMistakes from "./HerMistakes";
-import HerProjects from "./HerProjects";
-import HerResume from "./HerResume";
-import HerJourney from "./HerJourney";
+import HerMistakes from "./Her Mistakes/HerMistakes"
+import Home from './Home/Home';
+import HerResume from './Her Resume/HerResume';
+import HerProjects from './Her Projects/HerProjects';
+import HerJourney from './Her Journey/HerJourney';
+import AboutHer from './About Her/AboutHer';
 const MyRouter = () => (
   <div>
     {/* <p>you are in MyRouter.js file</p> */}

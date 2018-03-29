@@ -1,11 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Card, Col } from "antd";
+
 const Mistake = props => (
-  <div>
-    <h2>{props.mistakeData.title}</h2>
-    <p>{props.mistakeData.date}</p>
-    <p>{props.mistakeData.text}</p>
-  </div>
+  <Col xs={10}>
+    <Card title={props.mistakeData.title} border={false}>
+      <p>{props.mistakeData.date}</p>
+      <p>{props.mistakeData.text}</p>
+    </Card>
+  </Col>
 );
 Mistake.propTypes = {
   title: PropTypes.string.isRequired,
