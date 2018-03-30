@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { shallow } from "enzyme";
 import HerJourney from "./HerJourney";
 import fetchMock from "fetch-mock";
+import Timeline from "./Timeline";
 
 describe(`<HerJourney/>`, () => {
   test(`should load data into the timelines array in componentDidMount`, async () => {
@@ -17,4 +18,13 @@ describe(`<HerJourney/>`, () => {
       MOCK_RESPONSE_VALUE
     );
   });
+  test("should have 1 <h1>", () => {
+    const wrapper = shallow(<HerJourney />);
+    expect(wrapper.find("h1")).toHaveLength(1);
+  });
+  test("should have render <Timeline/> component", () => {
+    const wrapper = shallow(<HerJourney />);
+    // console.log(wrapper.debug())
+    expect(wrapper.find("#timelines")).toHaveLength(1)
 });
+})

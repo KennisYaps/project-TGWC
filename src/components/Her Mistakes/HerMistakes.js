@@ -21,8 +21,8 @@ class Mistakes extends Component {
       </div>
     );
   }
-  componentDidMount() {
-    fetch("http://localhost:3000/mistakes")
+  async componentDidMount() {
+    await fetch("http://localhost:3000/mistakes")
       .then(data => {
         return data.json();
       })
