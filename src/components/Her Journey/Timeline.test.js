@@ -10,7 +10,6 @@ describe("<Timeline/>", () => {
       events: [{ date: "1-June-2018", title: "title", text: "testing" }]
     };
     const wrapper = shallow(<Timeline timelineDatas={sampleData} />);
-    console.log(wrapper.debug());
     expect(wrapper.find("h2")).toHaveLength(1);
     expect(wrapper.find("p")).toHaveLength(1);
     expect(wrapper.find("#TimelineDataEvents")).toHaveLength(1);
