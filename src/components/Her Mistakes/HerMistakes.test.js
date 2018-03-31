@@ -3,6 +3,7 @@ import { shallow } from "enzyme";
 import fetchMock from "fetch-mock";
 import HerMistakes from "./HerMistakes";
 
+
 describe("<HerMistake/>", () => {
   test("should load data into the timelines array in componentDidMount", async () => {
     const MOCK_RESPONSE_KEY = "some field";
@@ -11,10 +12,11 @@ describe("<HerMistake/>", () => {
       status: 200,
       body: [{ MOCK_RESPONSE_KEY: MOCK_RESPONSE_VALUE }]
     });
-    const wrapper = shallow(<HerMistakes title="" date="å" text="" />);
+    const wrapper = shallow(<HerMistakes title="" date="" text="" />);
     await wrapper.instance().componentDidMount();
     expect(wrapper.state().mistakes[0].MOCK_RESPONSE_KEY).toEqual(
       MOCK_RESPONSE_VALUE
     );
   });
+  
 });
