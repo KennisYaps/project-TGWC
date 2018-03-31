@@ -4,7 +4,7 @@ import HerJourney from "./HerJourney";
 import fetchMock from "fetch-mock";
 import Timeline from "./Timeline";
 
-describe(`<HerJourney/>`, () => {
+describe(`<HerJourney/å>`, () => {
   test(`should load data into the timelines array in componentDidMount`, async () => {
     const MOCK_RESPONSE_KEY = "some field";
     const MOCK_RESPONSE_VALUE = "some value";
