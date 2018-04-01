@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Timeline from "./Timeline";
-import '../../CSS/HerJourney.css';
+import '../../CSS/HerStory.css';
 
-class HerJourney extends Component {
+class HerStory extends Component {
   constructor() {
     super();
     this.state = {
@@ -17,8 +17,8 @@ class HerJourney extends Component {
       }
     );
     return (
-      <div id="HerJourney">
-        <h1>HER JOURNEY</h1>
+      <div id="HerStory">
+        <h1>Her Story</h1>
         <div id="timelines">{displayTimelines}</div>
       </div>
     );
@@ -35,4 +35,4 @@ class HerJourney extends Component {
       );
   }
 }
-export default HerJourney;
+export default HerStory;

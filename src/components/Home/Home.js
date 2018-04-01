@@ -6,19 +6,22 @@ const Home = () => (
     <nav>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li>
-          <a href="#">About Her</a>
+          <a href="#AboutHer">About Her</a>
         </li>
         <li>
-          <a href="#">Her Journey</a>
+          <a href="#HerSkills">Her Skills</a>
         </li>
         <li>
-          <a href="#">Her Mistakes</a>
+          <a href="#HerStory">Her Story</a>
         </li>
         <li>
-          <a href="#">Her Projects</a>
+          <a href="#HerMistakes">Her Mistakes</a>
+        </li>
+        <li>
+          <a href="#HerProjects">Her Projects</a>
         </li>
       </ul>
     </nav>
