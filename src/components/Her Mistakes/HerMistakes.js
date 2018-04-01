@@ -16,7 +16,7 @@ class Mistakes extends Component {
     });
     return (
       <div id="HerMistakes">
-        <h1>HER MISTAKES</h1>
+        <h1 id="HerMistakes-Title">HER MISTAKES</h1>
         <section id="Mistakes-container">{displayMistakes}</section>
       </div>
     );

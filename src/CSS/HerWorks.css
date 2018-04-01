@@ -1,1 +1,37 @@
+#HerWorks {
+  padding: 100px 400px;
+  background-color:#EAECEE ;
+  text-align: center;
+}
 
+#Fetch-React-Lab-container {
+  background-color: white;
+  height: 300px;
+  width: 600px;
+  overflow: auto;
+  justify-content: stretch;
+}
+
+.Work-Image {
+  content: url("../Fetch-React-Lab-Work.jpg");
+  max-width: 200px;
+  max-height: 400px;
+  float: left;
+  vertical-align: middle;
+}
+.Work-Description {
+  padding: 5em;
+}
+
+.material-icons {
+    font-size: 16px;
+    /* To align the icon with the text. IT FREAKY WORKS!! LIKE FINALLY */
+    vertical-align: text-bottom;
+  }
+
+  .anchor-text{
+    border-bottom: solid rgb(235, 231, 231);
+    border-bottom-width: 1.5px;
+    padding: 0% 2%;
+    padding-bottom: 4px;
+  }

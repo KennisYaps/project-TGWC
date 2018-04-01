@@ -3,6 +3,10 @@
   padding: 70px;
 }
 
+#HerMistakes-Title {
+  padding: 0 0 15px 0;
+}
+
 #Mistakes-container {
   /* background-color: aliceblue; */
   display: grid;
