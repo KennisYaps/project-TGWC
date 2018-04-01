@@ -2,7 +2,6 @@ import React from "react";
 import Event from "./Event";
 // import PropTypes from "prop-types";
 
-// use vertical timeline
 const Timeline = props => (
   <div>
     <h2>{props.timelineDatas.TimelineTitle}</h2>

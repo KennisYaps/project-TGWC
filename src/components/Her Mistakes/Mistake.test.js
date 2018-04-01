@@ -8,9 +8,8 @@ describe("<Mistake/>", () => {
       { date: "1-July-2018", title: "test", text: "testing" }
     ];
     const wrapper = shallow(<Mistake mistakeData={sampleData} />);
-    console.log(wrapper.debug());
-    expect(wrapper.find("Col")).toHaveLength(1);
-    expect(wrapper.find("Card")).toHaveLength(1);
-    expect(wrapper.find("p")).toHaveLength(2);
+    expect(wrapper.find("#individual-Mistake")).toHaveLength(1);
+    expect(wrapper.find("h2#Mistake-title")).toHaveLength(1);
+    expect(wrapper.find("p#Mistake-date")).toHaveLength(1);
   });
 });

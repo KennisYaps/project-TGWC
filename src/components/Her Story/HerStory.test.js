@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { shallow } from "enzyme";
 import HerStory from "./HerStory";
 import fetchMock from "fetch-mock";
-import Timeline from "./Timeline";
-
+import Timeline from './Timeline';
 describe(`<HerStory/>`, () => {
   test(`should load data into the timelines array in componentDidMount`, async () => {
     const MOCK_RESPONSE_KEY = "some field";

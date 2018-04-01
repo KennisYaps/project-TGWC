@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 const Event = props => (
-  <div>
+  <div id="HerStory-Event">
     <h4>{props.eventdata.title} </h4>
     <p>{props.eventdata.date}</p>
     <p>{props.eventdata.text}</p>

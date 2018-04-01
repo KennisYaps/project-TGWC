@@ -10,7 +10,7 @@ const HerWorks = () => (
       <div className="Work-Description">
         <h2 className="Work-Title">Fetch React Lab</h2>
         <p className="Work-Link">
-          <i class="material-icons">code</i>
+          <i className="material-icons">code</i>
           <a
             className="anchor-text"
             href="https://github.com/yappps/fetch-react-lab"

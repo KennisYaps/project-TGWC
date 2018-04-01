@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { shallow } from "enzyme";
-import Timeline from "./Timeline";
-import Event from "./Event";
+import Timeline from './Timeline';
+import Event from './Event';
 describe("<Timeline/>", () => {
   test("should render a Timeline data properly ", () => {
     const sampleData = {
