@@ -1,7 +1,8 @@
 import React from "react";
+import '../../CSS/AboutHer.css';
 const AboutHer = () => (
-  <div>
-    <h1>About Her</h1>
+  <div id="AboutHer">
+    <h1>ABOUT HER</h1>
     <span id="about-her-text">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est fugiat
       voluptatum, aliquid illum natus veniam nulla ducimus assumenda sed quaerat
