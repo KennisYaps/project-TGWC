@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Mistake from "./Mistake";
-
+import "../../CSS/HerMistakes.css";
 class Mistakes extends Component {
   constructor() {
     super();
@@ -13,9 +13,9 @@ class Mistakes extends Component {
       return <Mistake mistakeData={mistake} key={index} />;
     });
     return (
-      <div>
+      <div id="HerMistakes">
         <h1>HER MISTAKES</h1>
-        {displayMistakes}
+        <section id="Mistakes-container">{displayMistakes}</section>
       </div>
     );
   }
