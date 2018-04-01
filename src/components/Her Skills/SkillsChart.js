@@ -22,9 +22,9 @@ class SkillsChart extends Component {
         layout="vertical"
       >
         <XAxis type="number" hide={true} />
-        <YAxis type="category" dataKey="name" axisLine={false} />
+        <YAxis type="category" dataKey="name" axisLine={false} tickLine={false}/>
         <Tooltip />
-        <Bar dataKey="Level" fill="#8884d8" />
+        <Bar dataKey="Level" fill="black" />
       </BarChart>
     );
   }

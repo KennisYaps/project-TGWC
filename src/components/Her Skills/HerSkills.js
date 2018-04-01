@@ -1,11 +1,10 @@
 import React from "react";
 import SkillsChart from "./SkillsChart";
+import '../../CSS/HerSkills.css';
 const HerSkills = () => (
-  <div>
-    <span id="about-her-barChart">
-      <h1>Her Skills</h1>
+  <div id="HerSkills">
+      <h1>HER SKILLS</h1>
       <SkillsChart />
-    </span>
   </div>
 );
 
