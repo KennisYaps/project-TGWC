@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Timeline from "./Timeline";
+import '../../CSS/HerJourney.css';
 
 class HerJourney extends Component {
   constructor() {
@@ -17,7 +18,7 @@ class HerJourney extends Component {
     );
     return (
       <div id="HerJourney">
-        <h1>Her Journey</h1>
+        <h1>HER JOURNEY</h1>
         <div id="timelines">{displayTimelines}</div>
       </div>
     );
