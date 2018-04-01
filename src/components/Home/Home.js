@@ -1,5 +1,6 @@
 import React from "react";
-import '../../CSS/Home.css';
+import "../../CSS/Home.css";
+
 const Home = () => (
   <div id="Home">
     <nav>
@@ -21,9 +22,11 @@ const Home = () => (
         </li>
       </ul>
     </nav>
-    <section className="background-image">
-      <h1 id="TGWC-title">The girl who code</h1>
-    </section>
+    <div className="background-image">
+      <span id="TGWC-title">
+        <h1>The girl who code</h1>
+      </span>
+    </div>
   </div>
 );
 

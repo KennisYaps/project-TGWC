@@ -2,7 +2,7 @@ import ProjectCards from './ProjectCard';
 import React from "react";
 
 const HerProjects = () => (
-  <div>
+  <div id="HerProjects">
     <h1>Her Projects</h1>
     <span><ProjectCards/></span>
   </div>
