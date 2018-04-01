@@ -16,7 +16,7 @@ class HerJourney extends Component {
       }
     );
     return (
-      <div>
+      <div id="HerJourney">
         <h1>Her Journey</h1>
         <div id="timelines">{displayTimelines}</div>
       </div>

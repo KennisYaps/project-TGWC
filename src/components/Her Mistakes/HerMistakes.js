@@ -12,7 +12,12 @@ class Mistakes extends Component {
     const displayMistakes = this.state.mistakes.map((mistake, index) => {
       return <Mistake mistakeData={mistake} key={index} />;
     });
-    return <div>{displayMistakes}</div>;
+    return (
+      <div>
+        <h1>HER MISTAKES</h1>
+        {displayMistakes}
+      </div>
+    );
   }
   async componentDidMount() {
     await fetch("http://localhost:3000/mistakes")
