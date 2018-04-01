@@ -1,5 +1,6 @@
 import React from "react";
 import "../../CSS/Home.css";
+import '../../index.css';
 
 const Home = () => (
   <div id="Home">
@@ -21,7 +22,7 @@ const Home = () => (
           <a href="#HerMistakes">Her Mistakes</a>
         </li>
         <li>
-          <a href="#HerProjects">Her Projects</a>
+          <a href="#HerWorks">Her Works</a>
         </li>
       </ul>
     </nav>

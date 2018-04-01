@@ -1,5 +1,7 @@
 import React from "react";
 import '../../CSS/AboutHer.css';
+import '../../index.css';
+
 const AboutHer = () => (
   <div id="AboutHer">
     <h1>ABOUT HER</h1>

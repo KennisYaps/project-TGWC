@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "../Home/Home";
-import HerProjects from "../Her Projects/HerProjects";
+import HerWorks from "../Her Works/HerWorks";
 import HerStory from "../Her Story/HerStory";
 import HerSkills from "../Her Skills/HerSkills";
 import AboutHer from "../About Her/AboutHer";
@@ -13,7 +13,7 @@ const Layout = () => (
     <HerSkills />
     <HerStory />
     <HerMistakes />
-    <HerProjects />
+    <HerWorks />
   </div>
 );
 

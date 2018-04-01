@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Mistake from "./Mistake";
 import "../../CSS/HerMistakes.css";
+import '../../index.css';
+
 class Mistakes extends Component {
   constructor() {
     super();
