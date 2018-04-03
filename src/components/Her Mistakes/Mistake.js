@@ -1,5 +1,5 @@
 import React from "react";
-import '../../CSS/HerMistakes.css';
+import './HerMistakes.css';
 const Mistake = props => (
   <div id="individual-Mistake">
     <h2 id="Mistake-title">{props.mistakeData.title}</h2>

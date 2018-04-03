@@ -1,7 +1,6 @@
 import React from "react";
 import "../../index.css";
-import "../../CSS/HerWorks.css";
-
+import './HerWorks.css';
 const HerWorks = () => (
   <div id="HerWorks">
     <h1>HER WORKS</h1>

@@ -13,7 +13,7 @@
 }
 
 .Work-Image {
-  content: url("../Fetch-React-Lab-Work.jpg");
+  content: url("../../Fetch-React-Lab-Work.jpg");
   max-width: 200px;
   max-height: 400px;
   float: left;

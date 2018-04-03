@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsChart from "./SkillsChart";
-import '../../CSS/HerSkills.css';
+import './HerSkills.css';
 import '../../index.css';
 const HerSkills = () => (
   <div id="HerSkills">

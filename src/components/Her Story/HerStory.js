@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Timeline from "./Timeline";
-import '../../CSS/HerStory.css';
+import './HerStory.css';
 import '../../index.css';
 
 class HerStory extends Component {

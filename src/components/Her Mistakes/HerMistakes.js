@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Mistake from "./Mistake";
-import "../../CSS/HerMistakes.css";
 import '../../index.css';
+import './HerMistakes.css';
 
 class Mistakes extends Component {
   constructor() {
