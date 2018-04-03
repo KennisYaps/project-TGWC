@@ -28,7 +28,7 @@ const Home = () => (
     </nav>
     <div className="background-image">
       <span id="TGWC-title">
-        <h1>The girl who code</h1>
+        <h1>The Girl Who Code</h1>
       </span>
     </div>
   </div>
