@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import MyRouter from './components/MyRouter';
-import './App.css';
-import Layout from './components/Layout/Layout';
+import Layout from '../components/Layout/Layout';
 class App extends Component {
   render() {
     return (

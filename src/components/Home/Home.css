@@ -33,7 +33,7 @@ nav ul li a:hover {
 }
 
 .background-image {
-  background-image: url("../../TGWC-Home.jpg");
+  background-image: url("./TGWC-Home.jpg");
   background-position: center center;
   height: 100vh;
   width: 100%;
