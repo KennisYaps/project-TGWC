@@ -1,3 +1,5 @@
+// this should be moved to an Timeline directory (i.e. src/Timeline/Timeline.js and src/Timeline/Timeline.test.js)
+
 import React from "react";
 import Event from "./Event";
 // import PropTypes from "prop-types";

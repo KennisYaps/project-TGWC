@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 
+// you should extract this to a seed data file
 const data = [
   { name: "C", Level: 4000 },
   { name: "C++", Level: 3000 },
