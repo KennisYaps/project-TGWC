@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import '../../index.css';
+import "../../index.css";
 
 const Home = () => (
   <div id="Home">
@@ -15,9 +15,9 @@ const Home = () => (
         <li>
           <a href="#HerSkills">Her Skills</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#HerStory">Her Story</a>
-        </li>
+        </li> */}
         <li>
           <a href="#HerMistakes">Her Mistakes</a>
         </li>

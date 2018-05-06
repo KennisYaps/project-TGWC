@@ -11,7 +11,7 @@ const Layout = () => (
     <Home />
     <AboutHer />
     <HerSkills />
-    <HerStory />
+    {/* <HerStory /> */}
     <HerMistakes />
     <HerWorks />
   </div>
