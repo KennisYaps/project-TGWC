@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 
 const data = [
-  { name: "C", Level: 4000 },
-  { name: "C++", Level: 3000 },
-  { name: "Python", Level: 2000 },
-  { name: "Javascript", Level: 2780 },
-  { name: "React", Level: 1890 },
-  { name: "TDD", Level: 2390 }
+  { name: "HTML/CSS", Level: 6 },
+  { name: "Javascript", Level: 5 },
+  { name: "React", Level: 5 },
+  { name: "Express.js", Level: 4 },
+  { name: "TDD", Level: 5 }
 ];
 
 class SkillsChart extends Component {
@@ -22,7 +21,12 @@ class SkillsChart extends Component {
         layout="vertical"
       >
         <XAxis type="number" hide={true} />
-        <YAxis type="category" dataKey="name" axisLine={false} tickLine={false}/>
+        <YAxis
+          type="category"
+          dataKey="name"
+          axisLine={false}
+          tickLine={false}
+        />
         <Tooltip />
         <Bar dataKey="Level" fill="black" />
       </BarChart>
