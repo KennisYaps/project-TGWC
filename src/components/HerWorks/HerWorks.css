@@ -1,37 +1,52 @@
 #HerWorks {
   padding: 100px 400px;
-  background-color:#EAECEE ;
+  /* background-color: rgb(236, 236, 236); */
   text-align: center;
 }
 
-#Fetch-React-Lab-container {
+#HerWorks h1 {
+  letter-spacing: 0.5em;
+  font-size: 35px;
+}
+
+.Project-container {
   background-color: white;
-  height: 300px;
+  height: auto;
   width: 600px;
   overflow: auto;
   justify-content: stretch;
 }
-
-.Work-Image {
+.Work-Title {
+  letter-spacing: 1px;
+}
+.Work-Image-Fetch-React-Lab {
   content: url("./WorksImage/Fetch-React-Lab-Work.jpg");
   max-width: 200px;
   max-height: 400px;
   float: left;
   vertical-align: middle;
 }
+.Work-Image-myFeedback {
+  content: url("./WorksImage/myFeedback.jpg");
+  max-width: 200px;
+  max-height: 400px;
+  float: left;
+  vertical-align: middle;
+  padding: 0em 0em 0em 1em;
+}
 .Work-Description {
   padding: 5em;
 }
 
 .material-icons {
-    font-size: 16px;
-    /* To align the icon with the text. IT FREAKY WORKS!! LIKE FINALLY */
-    vertical-align: text-bottom;
-  }
+  font-size: 16px;
+  /* To align the icon with the text. IT FREAKY WORKS!! LIKE FINALLY */
+  vertical-align: text-bottom;
+}
 
-  .anchor-text{
-    border-bottom: solid rgb(235, 231, 231);
-    border-bottom-width: 1.5px;
-    padding: 0% 2%;
-    padding-bottom: 4px;
-  }
+.anchor-text {
+  border-bottom: solid rgb(235, 231, 231);
+  border-bottom-width: 1.5px;
+  padding: 0% 2%;
+  padding-bottom: 4px;
+}

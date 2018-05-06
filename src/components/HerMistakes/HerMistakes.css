@@ -5,15 +5,19 @@
 
 #HerMistakes-Title {
   padding: 0 0 15px 0;
+  letter-spacing: 0.5em;
+  font-size: 35px;
 }
 
 #Mistakes-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   grid-auto-rows: minmax(1fr, auto);
-  grid-auto-flow:row dense;
+  grid-auto-flow: row dense;
   grid-gap: 10px;
   align-items: start;
+  letter-spacing: 0.5px;
+  padding: 2em 7em;
 }
 
 #individual-Mistake {
@@ -25,6 +29,8 @@
 
 #Mistake-title {
   text-align: left;
+  letter-spacing: 1px;
+  font-size: 25px;
 }
 #Mistake-date {
   color: grey;

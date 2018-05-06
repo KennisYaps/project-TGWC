@@ -1,4 +1,11 @@
-#HerSkills{
-    padding:100px 300px;
-    text-align: center;
+#HerSkills {
+  padding: 100px 450px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+#HerSkills h1 {
+  letter-spacing: 0.5em;
+  font-size: 32px;
+  padding: 0em 0em 1px 0em;
 }
